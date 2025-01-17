@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\**" />
+    <Compile Remove="Models\NewFolder\**" />
+    <Content Remove="Migrations\**" />
+    <Content Remove="Models\NewFolder\**" />
+    <EmbeddedResource Remove="Migrations\**" />
+    <EmbeddedResource Remove="Models\NewFolder\**" />
+    <None Remove="Migrations\**" />
+    <None Remove="Models\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\HealthDataController.cs" />
+    <Compile Remove="Controllers\NutritionLogController.cs" />
+    <Compile Remove="Controllers\ProgressReportController.cs" />
+    <Compile Remove="Controllers\usercontrollers.cs" />
+    <Compile Remove="Controllers\WeatherForecastController.cs" />
+    <Compile Remove="Models\ActivityLog.cs" />
+    <Compile Remove="Models\ExercisePlan.cs" />
+    <Compile Remove="Models\Notifications.cs" />
+    <Compile Remove="Models\user_profile.cs" />
+    <Compile Remove="schoolDbContext.cs" />
+    <Compile Remove="schoolDbContextcs.cs" />
+    <Compile Remove="Startup.cs" />
+    <Compile Remove="WeatherForecast.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="C:\Users\incis\Desktop\appsettings.json" Link="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql" Version="9.0.2" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.3.0" />
+  </ItemGroup>
+
+</Project>

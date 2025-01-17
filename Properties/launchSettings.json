@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:7084", // IIS Express için URL
+      "sslPort": 44383 // SSL portu
+    }
+  },
+  "profiles": {
+    "YourProjectName": { // Projeniz için profile adı
+      "commandName": "Project", // Projeyi doğrudan çalıştır
+      "dotnetRunMessages": true, // .NET run mesajlarını göster
+      "launchBrowser": true, // Tarayıcıyı otomatik açar
+      "applicationUrl": "http://localhost:5000", // Uygulamanın URL'si
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development" // Geliştirme ortamında çalıştığından emin olun
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger", // Swagger UI'yi otomatik olarak açacak URL
+      "applicationUrl": "http://localhost:5000", // Https ve http adresleri
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development" // Geliştirme ortamı
+      }
+    }
+  }
+}

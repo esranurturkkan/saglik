@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "school_project", "school_project.csproj", "{12E25A34-FA68-428F-88DA-F8E72514CA2C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F8CFF9E7-5230-4BAB-9B71-E09FF1773D7F} = {F8CFF9E7-5230-4BAB-9B71-E09FF1773D7F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "okul_projesi_frontend", "..\okul_projesi_frontend\okul_projesi_frontend.csproj", "{F8CFF9E7-5230-4BAB-9B71-E09FF1773D7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12E25A34-FA68-428F-88DA-F8E72514CA2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E25A34-FA68-428F-88DA-F8E72514CA2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E25A34-FA68-428F-88DA-F8E72514CA2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E25A34-FA68-428F-88DA-F8E72514CA2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8CFF9E7-5230-4BAB-9B71-E09FF1773D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CFF9E7-5230-4BAB-9B71-E09FF1773D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CFF9E7-5230-4BAB-9B71-E09FF1773D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CFF9E7-5230-4BAB-9B71-E09FF1773D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {308CEBA4-C2F8-4AF0-9F3C-FFC01EE430DE}
+	EndGlobalSection
+EndGlobal
