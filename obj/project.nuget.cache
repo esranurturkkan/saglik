@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PQUbci+MMqo=",
+  "dgSpecHash": "zqN5YUWjV6I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\incis\\source\\repos\\school_project\\school_project.csproj",
+  "projectFilePath": "C:\\Users\\incis\\source\\repos\\sağlıkegzersiztakibi\\back-end\\school_project\\school_project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\incis\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\incis\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.4\\microsoft.aspnetcore.authentication.jwtbearer.8.0.4.nupkg.sha512",

@@ -3676,11 +3676,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\incis\\source\\repos\\school_project\\school_project.csproj",
+      "projectUniqueName": "C:\\Users\\incis\\source\\repos\\sağlıkegzersiztakibi\\back-end\\school_project\\school_project.csproj",
       "projectName": "school_project",
-      "projectPath": "C:\\Users\\incis\\source\\repos\\school_project\\school_project.csproj",
+      "projectPath": "C:\\Users\\incis\\source\\repos\\sağlıkegzersiztakibi\\back-end\\school_project\\school_project.csproj",
       "packagesPath": "C:\\Users\\incis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\incis\\source\\repos\\school_project\\obj\\",
+      "outputPath": "C:\\Users\\incis\\source\\repos\\sağlıkegzersiztakibi\\back-end\\school_project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\incis\\AppData\\Roaming\\NuGet\\NuGet.Config",
